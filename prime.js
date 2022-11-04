@@ -1,25 +1,26 @@
 
-//Identify_Prime...//
 
 
-function checkprime(num){
 
-    let factor = 0;
-    for(let i=1 ; i<=num ; i++)
-    {
-       if(num%i==0)
-       {
-          factor++;
-       }
+function prime(Num){
+let c=0;
+ for(let i=i;i<=Num;i++){
+   if(Num % i==0 ) {
+     c++;
     }
-       if(factor==2)
-       {
-          console.log("Yes");
-       }
-       else
-       {
-          console.log("No");
-       }
+  if(c==2){
+    return true;
+  }
+ return false
+   
 }
 
-checkprime(14)
+
+let ans = prime(14);
+if(ans==true){
+console.log("prime");
+}else{
+console.log("not a prime")
+}
+
+
