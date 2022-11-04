@@ -1,5 +1,7 @@
 
 
+
+
 function prime(Num){
 let c=0;
  for(let i=i;i<=Num;i++){
@@ -20,4 +22,5 @@ console.log("prime");
 }else{
 console.log("not a prime")
 }
+
 
